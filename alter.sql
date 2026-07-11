@@ -13,7 +13,7 @@ ADD COLUMN email varchar(50);
 --DROP COLUMN email;
 
 -- reanameing a column 
-alter table employee rename name to user_name;
+alter table employee rename name to user_name  ;
 
 
 
