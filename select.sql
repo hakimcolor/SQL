@@ -39,7 +39,7 @@ VALUES
 
 ('Charlotte', 'Martin', 19, 'A+', 'Biology', 'charlotte.martin@example.com', '2005-10-11', 'O+', 'Bangladesh'),
 
-('Lucas', 'Thompson', 21, 'B+', 'English', 'lucas.thompson@example.com', '2003-01-29', 'A-', 'Brazil'),
+('Lucas', 'Thompson', 21, 'B+', 'English', 'lucas.thompson@example.com', '2003-01-29', 'A-', 'India'),
 
 ('Amelia', 'Garcia', 22, 'A', 'History', 'amelia.garcia@example.com', '2002-05-20', 'AB+', 'Mexico'),
 
@@ -81,3 +81,18 @@ select first_name , age from students
 
 -- coulumn alias
  select first_name as "f Nm", age as "Ag" from students;
+
+--sorting 
+select first_name , blood_group, country, age from students order by age asc
+select first_name , blood_group, country, age from students order by country asc
+
+
+--Distinct
+select distinct country from students
+
+-- select students form any country
+select * from students where country = 'Bangladesh'
+select first_name, course from students where country = 'India'
+
+--select sudents with ' agrade in physices'
+
