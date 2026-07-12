@@ -94,5 +94,9 @@ select distinct country from students
 select * from students where country = 'Bangladesh'
 select first_name, course from students where country = 'India'
 
---select sudents with ' agrade in physices'
+--select sudents with ' a  grade in physices'
+
+select first_name, course from students where grade = 'A'
+
+
 
