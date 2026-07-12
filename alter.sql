@@ -1,22 +1,23 @@
---create table
-CREATE TABLE emplye (id serial, name varchar(52), age int)
+CREATE TABLE employe (id serial, name varchar(50), age int);
+
 --Renaming table name 
-ALTER TABLE emplye
-RENAME TO employee
---add a colum in a table
-ALTER TABLE employee
-ADD COLUMN email varchar(50);
+ alter table employe rename to employee;
+
+-- add column ...
+ alter table employee add column email varchar(50);
 
 
---Drop a column;
---ALTER TABLE employee
---DROP COLUMN email;
+-- drop a column 
+alter table employee drop column email;
 
--- reanameing a column 
-alter table employee rename name to user_name  ;
+-- renaming a column name 
+alter table employee rename column name to user_name;
+
+--Modifying constraint
+alter table employee alter column user_name type varchar(20);
+
+--add constraint
 alter table employee alter column email set not null;
---deleate not null
---alter table employee alter column email drop not null
 
---set defult value 
-alter table employee alter column email set default 'hakimcolor@gmail.com';
+--drop constraint
+alter table employee alter column email drop not null;
