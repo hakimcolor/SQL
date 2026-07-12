@@ -17,3 +17,6 @@ alter table employee rename name to user_name  ;
 alter table employee alter column email set not null;
 --deleate not null
 --alter table employee alter column email drop not null
+
+--set defult value 
+alter table employee alter column email set default 'hakimcolor@gmail.com';
