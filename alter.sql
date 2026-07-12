@@ -14,7 +14,6 @@ ADD COLUMN email varchar(50);
 
 -- reanameing a column 
 alter table employee rename name to user_name  ;
+alter table employee alter column email set not null;
 
-
-
-
+--alter table employee alter column email drop not null
