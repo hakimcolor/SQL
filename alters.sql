@@ -7,3 +7,7 @@ CREATE TABLE employee (
 -- Add NOT NULL constraint to the email column
 ALTER TABLE employee
 ALTER COLUMN email SET NOT NULL;
+
+-- Drop address column
+ALTER TABLE employee
+DROP COLUMN address;
