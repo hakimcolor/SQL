@@ -15,3 +15,8 @@ DROP COLUMN address;
 --Add a new column named phone_number with the data type VARCHAR(15).
 ALTER TABLE employee
 ADD COLUMN phone_number VARCHAR(15);
+-- Change column type
+
+
+ALTER TABLE employee
+ALTER COLUMN user_name TYPE VARCHAR(50);
