@@ -11,3 +11,7 @@ ALTER COLUMN email SET NOT NULL;
 -- Drop address column
 ALTER TABLE employee
 DROP COLUMN address;
+
+--Add a new column named phone_number with the data type VARCHAR(15).
+ALTER TABLE employee
+ADD COLUMN phone_number VARCHAR(15);
