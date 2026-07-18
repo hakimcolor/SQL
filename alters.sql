@@ -20,3 +20,6 @@ ADD COLUMN phone_number VARCHAR(15);
 
 ALTER TABLE employee
 ALTER COLUMN user_name TYPE VARCHAR(50);
+
+
+----SELECT-------
