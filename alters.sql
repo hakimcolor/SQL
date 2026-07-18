@@ -4,3 +4,6 @@ CREATE TABLE employee (
     age INT,
     salary NUMERIC(10,2)
 );
+-- Add NOT NULL constraint to the email column
+ALTER TABLE employee
+ALTER COLUMN email SET NOT NULL;
