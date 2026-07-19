@@ -42,3 +42,7 @@ WHERE age > 25;
 -- 4. Show salary greater than 30000
 SELECT * FROM employee
 WHERE salary > 30000;
+
+-- 5. Sort by salary
+SELECT * FROM employee
+ORDER BY salary DESC;
