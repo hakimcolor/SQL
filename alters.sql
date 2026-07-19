@@ -29,3 +29,9 @@ ALTER COLUMN user_name TYPE VARCHAR(50);
 SELECT column_name, data_type, character_maximum_length
 FROM information_schema.columns
 WHERE table_name = 'employee';
+
+
+-- 1. Show all employees
+SELECT * FROM employee
+
+
