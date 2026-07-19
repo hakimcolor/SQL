@@ -34,4 +34,11 @@ WHERE table_name = 'employee';
 -- 1. Show all employees
 SELECT * FROM employee
 
+-- 3. Show employees older than 25
+SELECT * FROM employee
+WHERE age > 25;
 
+
+-- 4. Show salary greater than 30000
+SELECT * FROM employee
+WHERE salary > 30000;
