@@ -22,7 +22,7 @@ ALTER TABLE employee
 ALTER COLUMN user_name TYPE VARCHAR(50);
 
 
-----SELECT-------
+---------SELECT-------
 
 
 -- Show table structure.
