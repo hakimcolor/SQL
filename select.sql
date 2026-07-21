@@ -156,3 +156,9 @@ SELECT * FROM books;
 
 -- select title and price form books
 SELECT title, price FROM books;
+
+-- change name column name change ..
+SELECT
+title AS "Book Name",
+price AS "Book Price"
+FROM books;
