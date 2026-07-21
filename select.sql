@@ -168,3 +168,5 @@ FROM books;
 -- sort books by price 
 
 SELECT Book Name , Book Price FROM books ORDER BY Book Price ASC;
+
+--Sort Books by Publish Year
