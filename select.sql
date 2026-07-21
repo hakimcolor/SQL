@@ -173,3 +173,7 @@ SELECT Book Name , Book Price FROM books ORDER BY Book Price ASC;
 SELECT Book Name, publish_year
 FROM books
 ORDER BY publish_year DESC;
+
+-- Distinct Categories
+SELECT DISTINCT category
+FROM books;
