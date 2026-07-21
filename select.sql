@@ -121,3 +121,32 @@ CREATE TABLE books (
     publisher VARCHAR(100),
     country VARCHAR(50)
 );
+
+
+-- ==========================================
+-- Insert Book Records
+-- ==========================================
+
+INSERT INTO books
+(title, author, category, price, publish_year, language, stock, publisher, country)
+
+VALUES
+('Clean Code', 'Robert Martin', 'Programming', 45.99, 2008, 'English', 12, 'Prentice Hall', 'USA'),
+
+('Atomic Habits', 'James Clear', 'Self Help', 20.50, 2018, 'English', 15, 'Penguin', 'UK'),
+
+('The Alchemist', 'Paulo Coelho', 'Novel', 15.99, 1988, 'English', 20, 'Harper', 'Brazil'),
+
+('Python Crash Course', 'Eric Matthes', 'Programming', 38.00, 2019, 'English', 8, 'No Starch', 'USA'),
+
+('Rich Dad Poor Dad', 'Robert Kiyosaki', 'Finance', 18.75, 1997, 'English', 10, 'Plata', 'USA'),
+
+('Think and Grow Rich', 'Napoleon Hill', 'Motivation', 16.00, 1937, 'English', 7, 'Success Books', 'USA'),
+
+('Deep Work', 'Cal Newport', 'Productivity', 24.99, 2016, 'English', 11, 'Grand Central', 'Canada'),
+
+('The Pragmatic Programmer', 'Andrew Hunt', 'Programming', 42.00, 1999, 'English', 6, 'Addison Wesley', 'USA'),
+
+('Ikigai', 'Hector Garcia', 'Lifestyle', 19.99, 2017, 'English', 13, 'Penguin', 'Japan'),
+
+('You Can Win', 'Shiv Khera', 'Motivation', 14.99, 2003, 'English', 18, 'Macmillan', 'India');
