@@ -100,3 +100,24 @@ select first_name, course from students where grade = 'A'
 
 
 
+
+
+
+
+-- ==========================================
+-- Database 1 : Library Management System
+-- Create Table
+-- ==========================================
+
+CREATE TABLE books (
+    book_id SERIAL PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    author VARCHAR(100) NOT NULL,
+    category VARCHAR(50),
+    price NUMERIC(6,2),
+    publish_year INT,
+    language VARCHAR(30),
+    stock INT,
+    publisher VARCHAR(100),
+    country VARCHAR(50)
+);
