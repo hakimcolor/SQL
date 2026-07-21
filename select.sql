@@ -152,3 +152,4 @@ VALUES
 ('You Can Win', 'Shiv Khera', 'Motivation', 14.99, 2003, 'English', 18, 'Macmillan', 'India');
 
 --show all data form books 
+SELECT * FROM books;
