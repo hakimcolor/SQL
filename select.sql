@@ -177,3 +177,14 @@ ORDER BY publish_year DESC;
 -- Distinct Categories
 SELECT DISTINCT category
 FROM books;
+
+
+
+--show wher is the country 
+
+SELECT *
+FROM books
+WHERE country = 'USA';--you can chake any type of country her 
+
+
+
