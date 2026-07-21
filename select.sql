@@ -155,3 +155,4 @@ VALUES
 SELECT * FROM books;
 
 -- select title and price form books
+SELECT title, price FROM books;
