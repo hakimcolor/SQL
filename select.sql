@@ -153,3 +153,5 @@ VALUES
 
 --show all data form books 
 SELECT * FROM books;
+
+-- select title and price form books
