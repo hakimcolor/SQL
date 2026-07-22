@@ -225,3 +225,5 @@ VALUES
 ('William','Jackson',55,'Male','Blood Pressure','Dr. Ahmed','2024-02-05','AB-','Japan'),
 
 ('Mia','White',19,'Female','Fever','Dr. Brown','2024-07-01','A+','Bangladesh');
+
+-- Show All Patients
