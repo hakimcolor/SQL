@@ -169,7 +169,7 @@ FROM books;
 
 SELECT Book Name , Book Price FROM books ORDER BY Book Price ASC;
 
---Sort Books by Publish Year
+--Sort Books by Publish Yea
 SELECT Book Name, publish_year
 FROM books
 ORDER BY publish_year DESC;
@@ -180,7 +180,7 @@ FROM books;
 
 
 
---show wher is the country 
+--show where is the country 
 
 SELECT *
 FROM books
