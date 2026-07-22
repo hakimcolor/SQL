@@ -163,7 +163,6 @@ title AS "Book Name",
 price AS "Book Price"
 FROM books;
 
-SELECT Book Name
 
 -- sort books by price 
 
@@ -178,7 +177,6 @@ ORDER BY publish_year DESC;
 SELECT DISTINCT category
 FROM books;
 
-SELECT Book Name As 
 
 
 --show where is the country 
