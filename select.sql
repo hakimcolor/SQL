@@ -228,3 +228,5 @@ VALUES
 
 -- Show All Patients
 SELECT * FROM patients;
+
+-- select specific columns
