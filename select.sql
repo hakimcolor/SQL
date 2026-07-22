@@ -187,3 +187,4 @@ WHERE country = 'USA';--you can chake any type of country her
 
 
 
+-- Create Table
