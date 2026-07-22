@@ -188,3 +188,15 @@ WHERE country = 'USA';--you can chake any type of country her
 
 
 -- Create Table
+CREATE TABLE patients (
+    patient_id SERIAL PRIMARY KEY,
+    first_name VARCHAR(50) NOT NULL,
+    last_name VARCHAR(50) NOT NULL,
+    age INT,
+    gender VARCHAR(10),
+    disease VARCHAR(50),
+    doctor_name VARCHAR(50),
+    admission_date DATE,
+    blood_group VARCHAR(5),
+    country VARCHAR(50)
+);
