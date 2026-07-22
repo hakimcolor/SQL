@@ -227,3 +227,4 @@ VALUES
 ('Mia','White',19,'Female','Fever','Dr. Brown','2024-07-01','A+','Bangladesh');
 
 -- Show All Patients
+SELECT * FROM patients;
