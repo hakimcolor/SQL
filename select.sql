@@ -200,3 +200,5 @@ CREATE TABLE patients (
     blood_group VARCHAR(5),
     country VARCHAR(50)
 );
+
+-- Insert Data
