@@ -202,3 +202,26 @@ CREATE TABLE patients (
 );
 
 -- Insert Data
+INSERT INTO patients
+(first_name, last_name, age, gender, disease, doctor_name, admission_date, blood_group, country)
+
+VALUES
+('John','Smith',25,'Male','Fever','Dr. Brown','2024-01-10','O+','USA'),
+
+('Emma','Johnson',31,'Female','Diabetes','Dr. Wilson','2024-02-14','A+','Canada'),
+
+('Michael','Brown',40,'Male','Heart Disease','Dr. David','2024-03-08','B+','UK'),
+
+('Sophia','Davis',28,'Female','Asthma','Dr. Thomas','2024-01-25','AB+','Australia'),
+
+('Daniel','Wilson',35,'Male','Cancer','Dr. Ahmed','2024-04-11','O-','Germany'),
+
+('Olivia','Taylor',22,'Female','Migraine','Dr. Brown','2024-05-20','A-','France'),
+
+('James','Anderson',45,'Male','Kidney Stone','Dr. David','2024-03-19','B-','Italy'),
+
+('Ava','Thomas',30,'Female','Covid-19','Dr. Wilson','2024-06-02','O+','Spain'),
+
+('William','Jackson',55,'Male','Blood Pressure','Dr. Ahmed','2024-02-05','AB-','Japan'),
+
+('Mia','White',19,'Female','Fever','Dr. Brown','2024-07-01','A+','Bangladesh');
