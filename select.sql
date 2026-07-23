@@ -229,3 +229,6 @@ VALUES
 -- Show All Patients
 SELECT * FROM patients;
 
+-- select specific columns
+SELECT first_name, age
+FROM patients;
