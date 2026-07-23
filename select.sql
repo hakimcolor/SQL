@@ -232,3 +232,9 @@ SELECT * FROM patients;
 -- select specific columns
 SELECT first_name, age
 FROM patients;
+
+
+--select students with a grade and age
+select * from students
+where grade='A' or age='19'
+
