@@ -248,3 +248,11 @@ select * from students where age >= 20;
 -- not any country ..
 select * from students where country != 'Napel'
 
+--select students whose age is between 20 and 22
+select * from students where age between 20 and 22;
+
+--select students form bd , india , or naple 
+select  last_name, age from students where country ='Bangladesh' or country='India' or country ='Neple'
+
+--select students form bd , india or naple ..using in operator 
+select  first_name, country, age from students where country in ('Bangladesh', 'India', 'Naple')
