@@ -16,3 +16,8 @@ select first_name, age, coalesce(email, 'provite your email ') as email from stu
 
  -- select first 5 data 
  select * from students limit 5
+ -- select first 5 data 
+ select * from students limit 5
+select * from students limit 5 offset 5*0
+select * from students limit 5 offset 5*1
+select * from students limit 5 offset 5*2
