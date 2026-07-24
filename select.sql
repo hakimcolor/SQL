@@ -245,3 +245,6 @@ where (grade='A' or age='19') and (course='English' or course='Biology')
 -- select students older than 20
 select * from students where age >= 20;
 
+-- not any country ..
+select * from students where country != 'Napel'
+
