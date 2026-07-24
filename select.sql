@@ -238,3 +238,10 @@ FROM patients;
 select * from students
 where grade='A' or age='19'
 
+--select students with a grade of a or age in english or biology 
+select * from students
+where (grade='A' or age='19') and (course='English' or course='Biology')
+
+-- select students older than 20
+select * from students where age >= 20;
+
