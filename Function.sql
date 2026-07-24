@@ -14,3 +14,5 @@ select * from students where email is not null
 -- coalesce ..it's like placeholder
 select first_name, age, coalesce(email, 'provite your email ') as email from students
 
+ -- select first 5 data 
+ select * from students limit 5
